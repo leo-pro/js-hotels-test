@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "A simple project with a single failing test",
   "scripts": {
-    "test": "mocha test/**/*spec.js"
+    "test": "jest"
   },
   "dependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^4.0.1"
+    "jest": "^27.5.1"
   }
 }
